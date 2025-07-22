@@ -3,66 +3,75 @@
 <head>
   <meta charset="UTF-8">
   <title>Adeel Arif - Profile</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div class="container">
-    <aside class="sidebar">
-      <h2>Adeel Arif</h2>
-      <hr>
-      <nav>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="research.html">Research</a></li>
-          <li><a href="#">Honors & Awards</a></li>
-          <li><a href="#">Teaching</a></li>
-          <li><a href="#">Consultancy work</a></li>
-        </ul>
+  <header class="main-header">
+    <div class="container nav-container">
+      <div class="logo">Adeel Arif</div>
+      <nav class="main-nav">
+        <a href="#about">About</a>
+        <a href="#publications">Publications</a>
+        <a href="#projects">Projects</a>
+        <a href="#courses">Courses</a>
+        <a href="#data-centric-ai">Data-centric AI</a>
+        <a href="#contact">Contact</a>
       </nav>
-      <img src="adeel.jpg" alt="Profile Photo" class="profile-pic">
-      <div class="sidebar-links">
-        <a href="#">My CV</a>
-        <a href="research.html">Research</a>
-        <a href="#">Teaching</a>
-        <a href="#">Honors & Awards</a>
+    </div>
+  </header>
+  <main>
+    <section class="hero">
+      <div class="container hero-container">
+        <img src="adeel.jpg" alt="Profile Photo" class="profile-pic-large">
+        <div class="hero-text">
+          <h1>Dr. Adeel Arif</h1>
+          <p class="subtitle">Assistant Professor, AI Researcher, Robotics Enthusiast</p>
+          <p>Founder & Head of Research Group LahoriBot. Former Assistant Professor at University of Central Punjab and FAST National University Lahore. PhD in Robotics and Machine Learning.</p>
+        </div>
       </div>
-    </aside>
-    <main class="content">
-      <h1>Dr. Adeel Arif</h1>
-      <div class="underline"></div>
-      <div class="bio">
-        <p>
-          Currently I am an Assistant Professor at Department of Computer Science at
-          <a href="#">University of Central Punjab</a> and Founder & Head of
-          <a href="#">Research Group LahoriBot</a>.
-        </p>
-        <p>
-          I worked as an Assistant Professor at Faculty of Information Technology at
-          <a href="#">University of Central Punjab Lahore</a> and Founder & Director of
-          <a href="#">Center of Robotics and Security</a> from 2016-2017.
-        </p>
-        <p>
-          I worked as an Assistant Professor at Computer Science department at
-          <a href="#">FAST National University Lahore</a> and Founding Director of
-          <a href="#">Liberty Lab for Robotics and Embedded Systems</a> from 2013-2015.
-        </p>
-        <p>
-          Before this, I was living in the city of Shanghai doing a Doctrate at the Machine Learning and Robotics (MLR) group at the Shanghai Jiao Tong University, China.
-        </p>
-        <p>
-          I completed my PhD from University of <a href="#">Tuebingen</a>, Germany, in the
-          <a href="#">Robotics Research Group</a>. My work was mostly on Visual Terrain Classification onboard wheeled and flying robots.
-        </p>
-        <p>
-          Previously, I was at <a href="#">Kaiserslautern University of Technology</a>, Germany for a few years involved in teaching and research at
-          <a href="#">Robotics and AI Group</a> and
-          <a href="#">Image Understanding and Pattern Recognition (IUPR) Group at DFKI</a>.
-        </p>
-        <p>
-          I did BS computer science from <a href="#">FAST - National University of Computer & Emerging Sciences</a>.
-        </p>
+    </section>
+    <section id="about" class="section">
+      <div class="container">
+        <h2>About</h2>
+        <p>Dr. Adeel Arif is an Assistant Professor at the Department of Computer Science, University of Central Punjab, and Founder & Head of Research Group LahoriBot. He has extensive experience in robotics, AI, and machine learning, with a strong academic and research background.</p>
       </div>
-    </main>
-  </div>
+    </section>
+    <section id="publications" class="section">
+      <div class="container">
+        <h2>Publications</h2>
+        <ul>
+          <li>PhD Paper 1 – <em>Journal Name</em>, Year. <a href="#">[Link]</a></li>
+          <li>Example Publication Title 2 – <em>Conference Name</em>, Year. <a href="#">[Link]</a></li>
+          <li>Example Publication Title 3 – <em>Journal Name</em>, Year. <a href="#">[Link]</a></li>
+        </ul>
+      </div>
+    </section>
+    <section id="projects" class="section">
+      <div class="container">
+        <h2>Projects</h2>
+        <p>Details about robotics, AI, and machine learning projects will be listed here.</p>
+      </div>
+    </section>
+    <section id="courses" class="section">
+      <div class="container">
+        <h2>Courses</h2>
+        <p>Information about courses taught and online education initiatives.</p>
+      </div>
+    </section>
+    <section id="data-centric-ai" class="section">
+      <div class="container">
+        <h2>Data-centric AI</h2>
+        <p>Insights and resources on data-centric approaches to AI.</p>
+      </div>
+    </section>
+    <section id="contact" class="section">
+      <div class="container">
+        <h2>Contact</h2>
+        <p>Email: adeel.arif@example.com</p>
+        <p>LinkedIn: <a href="#">linkedin.com/in/adeelarif</a></p>
+      </div>
+    </section>
+  </main>
 </body>
 </html> 
